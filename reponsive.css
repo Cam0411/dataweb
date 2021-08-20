@@ -129,6 +129,7 @@
 .about-box-2 
 {
     font-size: 17px;
+    line-height: 35px;
 }
 .box-2
 {
@@ -137,11 +138,11 @@
 }
 #content-3
 {
-    height: 2200px;
+    height: 2400px;
 }
 .content-3-text 
 {
-    height: 2100px;
+    height: 2300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,6 +170,16 @@
     width: 100%;
     color: #e83e8c;
     margin-left: 0%;
+}
+.about-3 
+{
+    padding: 30px;
+    line-height: 35px;
+}
+.about-2 
+{
+    padding: 20px;
+    line-height: 35px;
 }
 }
 @media (min-width:641px) and (max-width:1178px){
@@ -218,12 +229,12 @@
 
 #content-2 
 {
-    height: 1900px;
+    height: 2100px;
    
 }
 #content-2 .content-text-2
 {
-    height: 1800px;
+    height: 2000px;
 }
 .heading-box-2 
 {
@@ -267,5 +278,14 @@
 .content-box-3 h1 
 {
     font-size: 20px;
+}
+.about-2 
+{
+    padding: 20px;
+}
+.about-3 
+{
+    padding: 30px;
+    line-height: 35px;
 }
 }
