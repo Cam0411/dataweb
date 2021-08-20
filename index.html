@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+           <h1>Data Web</h1>
+       <ul id="nav">
+           <li class="sub-nav" ><a href=""> Home </a></li>
+           <li><a href=""> About </a></li>
+           <li><a href="">Service </a></li>
+           <li><a href="">Contact</a></li>
+           <li><a href="">Sign up</a></li>
+       </ul>
+       <div class="nav-tablet">
+        <i class="fas fa-bars"></i>
+       </div>
+    </div>
+    <div id="slider">
+       <div class="slider-text">
+           <div class="slider-content"> 
+              <h1 class="heading-slider"> Power ful <br> Web Hosting</h1>
+               <p class="sub-slider">Landing Page 2045</p>
+               <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+               <p class="box">GET STARTED</p>
+            </div>
+             <img src="product.png">
+       </div>
+    </div>
+    <div id="content">
+      <div class="content-text">
+          <div class="content-box">
+                <h1 class="heading-content"> What’s New In Web Hosting </h1>
+              <img src="web.jpg">
+               <p class="about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+               ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+               <p class="box-content">Read More</p>
+         </div>
+      </div>
+    </div>
+    <div id="content-2">
+        
+    </div>
+    <div id="footer">
+
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+           <div class="modal-close">
+            <i class="fas fa-times"></i>
+           </div>
+           <ul id="nav-tablet">
+            <li class="sub-nav" ><a href=""> Home </a></li>
+            <li><a href=""> About </a></li>
+            <li><a href="">Service </a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Sign up</a></li>
+        </ul>
+        </div>
+    </div>
+    <script>
+     const menus = document.querySelectorAll(".nav-tablet") 
+     const modal = document.querySelector(".modal")
+     const modalclose = document.querySelector(".modal-close")
+     function showmodal(){
+         modal.classList.add("open")
+     }
+     function hidemodal(){
+         modal.classList.remove("open")
+     }
+       for (const menu of menus) {
+           menu.addEventListener("click",showmodal)
+       }
+       modalclose.addEventListener("click",hidemodal)
+    </script>
+</body>
+</html>
