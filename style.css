@@ -340,12 +340,12 @@
 }
 #footer 
 {
-    height: 700px;
+    height: 800px;
     background: #0C0F38;
 }
 .footer-text 
 {
-    height: 600px;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;

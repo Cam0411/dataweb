@@ -133,16 +133,16 @@
 }
 .box-2
 {
-    width: 85%;
+    width: 80%;
     margin-left: 35px;
 }
 #content-3
 {
-    height: 2400px;
+    height: 2600px;
 }
 .content-3-text 
 {
-    height: 2300px;
+    height: 2500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,8 +161,8 @@
 {
     background: #0C0F38;
     height: 400px;
-    width: 280px;
-    margin-top: -420px;
+    width: 250px;
+    margin-top: -400px;
     border-radius: 24px;
 }
 .submit 
@@ -181,6 +181,14 @@
     padding: 20px;
     line-height: 35px;
 }
+.last-heading h1 
+{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+}
+
 }
 @media (min-width:641px) and (max-width:1178px){
     #nav{
@@ -262,7 +270,7 @@
 }
 .content-box-3 
 {
-    width: 30%;
+    width: 60%;
     margin-left: 15px;
 }
 .content-box-3 i
