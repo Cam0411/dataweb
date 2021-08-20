@@ -232,6 +232,7 @@
     margin-left: 20px;
     margin-bottom: 20px;
     border-radius: 25px;
+    transition: 0.4s;
 }
 .all-box 
 {
@@ -249,6 +250,7 @@
     color: purple;
     margin-bottom: 20px;
     margin-top: 100px;
+   
 }
 .heading-box-2 
 {
@@ -258,6 +260,124 @@
 .about-box-2 
 {
     font-size: 25px;
+
+}
+.content-box-2:hover 
+{
+    background: #6610f2;
+}
+.box-2 
+{
+    width:15%;
+    background: #fff;
+    color: #000;
+    padding: 15px;
+    margin-left: 41%;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.box-2:hover 
+{
+    background: #000;
+    color: #fff;
+
+}
+#content-3
+{
+    height: 1000px;
+}
+.content-3-text 
+{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about-3 
+{
+    margin-top: 40px;
+}
+.content-box-3 
+{
+    width: 33.3%;
+    background: #fff;
+    margin-top: 50px;
+    border: 2px solid #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 500px;
+    border-radius: 24px;
+    padding: 20px;
+    margin-left: 20px;
+ 
+}
+.all-box-2 
+{
+   display: flex;
+   padding: 20px;
+}
+.content-box-3 i
+{
+    margin-top: 80px;
+   font-size: 40px;
+   margin-bottom: 30px;
+}
+.content-box-3 p 
+{
+    margin-top: 20px;
+    line-height: 35px;
+}
+#footer 
+{
+    height: 600px;
+    background: #0C0F38;
+}
+.footer-text 
+{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-box
+{
+    background: #0C0F38;
+    height: 400px;
+    width: 500px;
+    margin-top: -420px;
+    border-radius: 24px;
+}
+.text 
+{
+    display: block;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 24px;
+    width: 95%;
+    outline: none;
+    font-size: 20px;
+}
+.text2 
+{
+    height: 70px;
+    border-radius: 15px;
+}
+.all-text 
+{
+    padding: 20px;
+}
+.submit 
+{
+    width: 30%;
+    color: #e83e8c;
+    margin-left: 30%;
+}
+.last-heading h1 
+{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
 }
 @keyframes mymove {
     from {transform: translateX(-100%);}

@@ -1,4 +1,4 @@
-@media (max-width:580px){
+@media (max-width:640px){
     #nav{
         display: none;
     }
@@ -120,6 +120,7 @@
     margin-bottom: 20px;
     border-radius: 25px;
 }
+
 .heading-box-2 
 {
     font-size: 20px;
@@ -129,8 +130,48 @@
 {
     font-size: 17px;
 }
+.box-2
+{
+    width: 80%;
+    margin-left: 35px;
 }
-@media (min-width:581px) and (max-width:1178px){
+#content-3
+{
+    height: 2200px;
+}
+.content-3-text 
+{
+    height: 2100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.all-box-2 
+{
+   flex-direction: column;
+   padding: 20px;
+}
+.content-box-3 
+{
+    width: 90%;
+}
+.form-box
+{
+    background: #0C0F38;
+    height: 400px;
+    width: 280px;
+    margin-top: -420px;
+    border-radius: 24px;
+}
+.submit 
+{
+    width: 100%;
+    color: #e83e8c;
+    margin-left: 0%;
+}
+}
+@media (min-width:641px) and (max-width:1178px){
     #nav{
         display: none;
     }
@@ -202,5 +243,29 @@
     margin-left: 20px;
     margin-bottom: 20px;
     border-radius: 25px;
+}
+.box-2
+{
+    width: 80%;
+    margin-left: 90px;
+}
+.content-box-3 
+{
+    width: 30%;
+    margin-left: 15px;
+}
+.content-box-3 i
+{
+    margin-top: 80px;
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+.content-box-3 p 
+{
+    margin-top: 20px;
+}
+.content-box-3 h1 
+{
+    font-size: 20px;
 }
 }
